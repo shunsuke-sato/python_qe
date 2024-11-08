@@ -7,7 +7,7 @@ from matplotlib.animation import PillowWriter
 
 # Construct potential
 def construct_potential(xj, xc):
-    return 0.5*k0*(xj-xc)**2
+    return 0.5*(xj-xc)**2
 
 def calc_ground_state(xj, potential):
 
